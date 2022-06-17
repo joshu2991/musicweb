@@ -4,25 +4,24 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/parallax_prueba.css"></linkre>
+  <title>Andy</title>
+  <link rel="stylesheet" href="css/parallax_prueba.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/buttons.css">
   <link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/flexslider.css">
 	<link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="css/parallax_body.css">
 </head>
 <body>
 
+<!--********** NavBar **********-->
 <nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light" id="pb-navbar">
-
 		<div class="container">
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-
-
 			<div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
 				<ul class="navbar-nav">
 					<li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
@@ -34,8 +33,10 @@
 			</div>
 		</div>
 	</nav>
+<!--********** End-NavBar **********-->
 
-<div class="container-parallax section-hidden" id="section_hide">
+<!--********** Parallax Vertical Scrolling **********-->
+<div class="container-parallax">
   <section class="background">
     
     <div class="container">
@@ -63,6 +64,72 @@
     </div>
   </section>
 </div>
+<!--********** End-Parallax Vertical Scrolling **********-->
+
+ <!--********** Parallax Body **********-->
+
+ <div class="pimg1 parallax-body hidden-parallax-body" id="parallax-body">
+    <div class="ptext">
+      <span class="border">
+        Parallax Website
+      </span>
+    </div>
+  </div>
+
+  <!-- Normal section -->
+
+  <section class="section parallax-body section-light hidden-parallax-body" id="parallax-body">
+    <h2>Section One</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam numquam accusantium velit eligendi saepe rem dolor autem odit optio labore ullam magni perferendis consequatur magnam tempore consectetur nulla, fugit ea qui voluptate odio quos eum! Odio molestias et, cupiditate maxime ducimus quasi quos ullam laudantium. Repellendus vel culpa aliquid accusantium sit, fugiat nesciunt deserunt obcaecati doloremque dolore illo voluptates aspernatur dicta, expedita porro nam autem veritatis quia distinctio accusamus sed cum voluptatum fuga vitae? Iusto adipisci voluptatibus maxime explicabo, alias voluptatem. Inventore, harum. Asperiores rerum in soluta, minus, nam voluptates facilis, fugiat dolore mollitia animi sit dolorem optio cumque itaque.</p>
+  </section>
+
+  <!-- Parallax section 2 -->
+
+  <div class="pimg2 parallax-body hidden-parallax-body" id="parallax-body">
+    <div class="ptext">
+      <span class="border trans">
+        Image Two Text
+      </span>
+    </div>
+  </div>
+
+  <!-- Normal section -->
+
+  <section class="section parallax-body section-dark hidden-parallax-body" id="parallax-body">
+    <h2>Section Two</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam numquam accusantium velit eligendi saepe rem dolor autem odit optio labore ullam magni perferendis consequatur magnam tempore consectetur nulla, fugit ea qui voluptate odio quos eum! Odio molestias et, cupiditate maxime ducimus quasi quos ullam laudantium. Repellendus vel culpa aliquid accusantium sit, fugiat nesciunt deserunt obcaecati doloremque dolore illo voluptates aspernatur dicta, expedita porro nam autem veritatis quia distinctio accusamus sed cum voluptatum fuga vitae? Iusto adipisci voluptatibus maxime explicabo, alias voluptatem. Inventore, harum. Asperiores rerum in soluta, minus, nam voluptates facilis, fugiat dolore mollitia animi sit dolorem optio cumque itaque.</p>
+  </section>
+
+  <!-- Parallax section 3 -->
+
+  <div class="pimg3 parallax-body hidden-parallax-body" id="parallax-body">
+    <div class="ptext">
+      <span class="border trans">
+        Image Three Text
+      </span>
+    </div>
+  </div>
+
+  <!-- Normal section -->
+
+  <section class="section parallax-body section-light hidden-parallax-body" id="parallax-body">
+    <h2>Section Three</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam numquam accusantium velit eligendi saepe rem dolor autem odit optio labore ullam magni perferendis consequatur magnam tempore consectetur nulla, fugit ea qui voluptate odio quos eum! Odio molestias et, cupiditate maxime ducimus quasi quos ullam laudantium. Repellendus vel culpa aliquid accusantium sit, fugiat nesciunt deserunt obcaecati doloremque dolore illo voluptates aspernatur dicta, expedita porro nam autem veritatis quia distinctio accusamus sed cum voluptatum fuga vitae? Iusto adipisci voluptatibus maxime explicabo, alias voluptatem. Inventore, harum. Asperiores rerum in soluta, minus, nam voluptates facilis, fugiat dolore mollitia animi sit dolorem optio cumque itaque.</p>
+  </section>
+  
+  <!-- Parallax section 3 -->
+  
+  <div class="pimg1 parallax-body hidden-parallax-body" id="parallax-body">
+    <div class="ptext">
+      <span class="border">
+        Susnet Web Design
+      </span>
+    </div>
+  </div>
+
+
+  <!--********** End-Parallax Body **********-->
+ 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>

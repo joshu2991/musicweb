@@ -87,7 +87,7 @@ function lastItem() {
   var $currentSlide = $(".background");
   $currentSlide.removeClass("down-scroll").addClass("last-scroll");
   $currentSlide.removeClass("last-scroll");
-  $(".section-hidden").addClass("hidden");
+  $currentSlide.addClass("hidden");
   last_Item = 0;
   
 }

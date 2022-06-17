@@ -7,7 +7,7 @@ var currentSlideNumber = 0;
 var totalSlideNumber = $('.background').length;
 var last_Item = 1;
 var obj = document.getElementById("section_hide");
-var opa = 1;
+var opacity = 1;
 function parallaxScroll(evt) {
     if (isFirefox) {
         delta = evt.detail * -120;
@@ -56,13 +56,17 @@ function previousItem() {
     currentSlideTransition();
 }
 function lastItem() {
-  window.setTimeout(
-    function removethis()
-    {
-      obj.style.display='none';
-    }, 300);
+    var $currentSlide = $(".background");
+    $currentSlide.addClass("last-scroll");
+    var $showParallaxBody = $(".parallax-body");
+    setTimeout(function () {
+        $showParallaxBody.removeClass("hidden-parallax-body");
+        $showParallaxBody.fadeTo(2000, 1);
+    }, 160);
+    
+    last_Item = 0;
   }
-//   obj.addEventListener('wheel', lastItem);
+
 function currentSlideTransition() {
     var $currentSlide = $('.background').eq(currentSlideNumber);
     $currentSlide.css('transform', 'translate3d(0,-15vh,0)').find('.content-wrapper').css('transform', 'translateY(15vh)');
