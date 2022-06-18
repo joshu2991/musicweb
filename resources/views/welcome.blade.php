@@ -13,6 +13,9 @@
 	<link rel="stylesheet" href="css/flexslider.css">
 	<link rel="stylesheet" href="fonts/icomoon/style.css">
   <link rel="stylesheet" href="css/parallax_body.css">
+  <link href="https://fonts.googleapis.com/css?family=Bitter:400,700&display=swap&subset=latin-ext" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"></link>
+  <link rel="stylesheet" href="css/music_player.css"></link>
 </head>
 <body>
 
@@ -86,11 +89,7 @@
   <!-- Parallax section 2 -->
 
   <div class="pimg2 parallax-body hidden-parallax-body" id="parallax-body">
-    <div class="ptext">
-      <span class="border trans">
-        Image Two Text
-      </span>
-    </div>
+      @include('music_player')
   </div>
 
   <!-- Normal section -->
@@ -132,9 +131,11 @@
  
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="js/parallax_prueba.js"></script>
-<script src="js/nav-bar.js"></script>  
+<script src="js/nav-bar.js"></script> 
+<script src="js/music_player.js"></script> 
 
 </body>
 </html>

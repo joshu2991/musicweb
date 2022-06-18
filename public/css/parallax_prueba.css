@@ -46,9 +46,14 @@
   transform: translateY(10vh);
 }
 
-.background:nth-child(2) { background-image: url(teatro1.jpg); }
+.background:nth-child(2) { 
+  background-image: url(teatro1.jpg); 
+}
 
-.background:nth-child(3) { background-image: url(https://unsplash.it/2928/2264?image=525); }
+.background:nth-child(3) { 
+  background-image: url(andrea_trueba.jpg); 
+  background-size: 100% 78%;
+}
 
 /* Set stacking context of slides */
 
