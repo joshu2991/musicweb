@@ -10,12 +10,12 @@ html {
 }
 
 .pimg1 {
-    background: url(https://images.pexels.com/photos/548084/pexels-photo-548084.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+    background: url(teatro4.jpg);
     min-height: 100%;
  }
  
  .pimg2 {
-    background: url(https://images.pexels.com/photos/373934/pexels-photo-373934.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(partitura.jpg);
     min-height: 400px;
  }
  
@@ -63,8 +63,8 @@ html {
  }
  
  .section-light {
-    background: #f4f4f4;
-    color: #666666;
+    background: black;
+    color: white;
  }
  
  .section-dark {

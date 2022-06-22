@@ -45,14 +45,12 @@
   -ms-transform: translateY(10vh);
   transform: translateY(10vh);
 }
-
 .background:nth-child(2) { 
-  background-image: url(teatro1.jpg); 
-}
-
-.background:nth-child(3) { 
-  background-image: url(andrea_trueba.jpg); 
+  background-image: url(fondo_negro.jpg); 
   background-size: 100% 78%;
+}
+.background:nth-child(3) { 
+  background-image: url(director.jpg); 
 }
 
 /* Set stacking context of slides */
@@ -94,8 +92,71 @@
   font-size: 12vh;
   line-height: 1.4;
 }
+.content-title-opera {
+  font-size: 8vh;
+  line-height: 1.4;
+}
 .last-scroll{
   transform: translate3d(0, 200vh, 0) !important;
 }
-
-
+.nav-bar-show{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.page-three{
+  background-image: url(andrea_trueba1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 420px;
+  height: 600px;
+  margin-top: 4rem;
+  margin-left: 12rem;
+}
+.profile-begin{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 80px;
+}
+.profile-name{
+  font-size: 40px;
+}
+.profile-name p{
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 40px;
+  color: #900C3F;
+  font-family: 'Bad Script', cursive;
+}
+.content-wrapper-three {
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: start;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  color: #fff;
+  font-family: Montserrat;
+  -webkit-transform: translateY(40vh);
+  -ms-transform: translateY(40vh);
+  transform: translateY(40vh);
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: all 1.9s cubic-bezier(0.22, 0.44, 0, 1);
+  transition: all 1.9s cubic-bezier(0.22, 0.44, 0, 1);
+  margin-left: 200px;
+}
+.subitle-parallax p{
+  font-size: 30px;
+  width: 50%;
+  margin-bottom: 60px;
+}

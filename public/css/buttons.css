@@ -19,8 +19,7 @@
 
   /* 3 */
 .btn-3 {
-    background: rgb(238, 0, 234);
-  background: linear-gradient(0deg, rgba(238, 0, 234,1) 0%, rgba(238, 0, 234,1) 100%);
+    background: linear-gradient(0deg, #55b955 0%, #55b955 100%);
     width: 130px;
     height: 40px;
     line-height: 42px;
@@ -40,7 +39,7 @@
     content: "";
     right: 0;
     top: 0;
-     background: rgba(238, 0, 234,1);
+     background: #55b955;
     transition: all 0.3s ease;
   }
   .btn-3:before {
@@ -62,7 +61,7 @@
     width: 100%;
   }
   .btn-3 span:hover{
-     color: rgba(238, 0, 234,1);
+     color: #55b955;
   }
   .btn-3 span:before,
   .btn-3 span:after {
@@ -70,7 +69,7 @@
     content: "";
     left: 0;
     bottom: 0;
-     background: rgba(238, 0, 234,1);
+     background: #55b955;
     transition: all 0.3s ease;
   }
   .btn-3 span:before {
