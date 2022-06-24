@@ -32,10 +32,11 @@
         erase(obj, cb) }, time) })
   }
   var sentences = [
-    "es escuchar ",
-    "es creer ",
-    "es soñar ",
-    "se vive "
+    "Creer ",
+    "Cantar ",
+    "Soñar ",
+    "Escuchar ",
+    "Vivir"
   ]
   var counter = 0;
   
@@ -60,3 +61,4 @@ music.onplaying = function() {
 music.onpause = function() {
   isPlaying = false;
 };
+

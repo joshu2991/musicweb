@@ -34,10 +34,25 @@
 }
 
 .background:first-child {
-  background-image: url(fondo1.jpg);
+  /* background-image: url(fondo1.jpg); */
   -webkit-transform: translateY(-10vh);
   -ms-transform: translateY(-10vh);
   transform: translateY(-10vh);
+}
+#background-video {
+  width: 100vw;
+  height: 110vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.first-child-back{
+  background-color: rgb(123, 123, 123);
+  max-width: 100%;
 }
 
 .background:first-child .content-wrapper {
@@ -46,7 +61,7 @@
   transform: translateY(10vh);
 }
 .background:nth-child(2) { 
-  background-image: url(fondo_negro.jpg); 
+  background-color: black; 
   background-size: 100% 78%;
 }
 .background:nth-child(3) { 
@@ -93,8 +108,10 @@
   line-height: 1.4;
 }
 .content-title-opera {
-  font-size: 8vh;
+  font-size: 7vh;
   line-height: 1.4;
+  width: 700px;
+  text-align: center;
 }
 .last-scroll{
   transform: translate3d(0, 200vh, 0) !important;
@@ -105,29 +122,30 @@
   display: flex;
 }
 .page-three{
-  background-image: url(andrea_trueba1.jpg);
+  background-image: url(andrea_trueba1.png);
   background-size: contain;
   background-repeat: no-repeat;
-  width: 420px;
-  height: 600px;
-  margin-top: 4rem;
-  margin-left: 12rem;
+  width: 70%;
+  height: 100vh;
 }
 .profile-begin{
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 80px;
+  gap: 60px;
 }
 .profile-name{
+  text-align: right;
   font-size: 40px;
+  padding-right: 120px;
 }
 .profile-name p{
-  font-size: 60px;
+  font-size: 90px;
   font-weight: bold;
   margin-top: 40px;
   color: #900C3F;
   font-family: 'Bad Script', cursive;
+  text-transform: none;
 }
 .content-wrapper-three {
   height: 100vh;
@@ -159,4 +177,14 @@
   font-size: 30px;
   width: 50%;
   margin-bottom: 60px;
+}
+.typeline{
+  font-family: Montserrat;
+} 
+
+.container-video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
 }

@@ -44,18 +44,28 @@
 <!--********** Parallax Vertical Scrolling **********-->
 <div class="container-parallax">
   <section class="background">
-    
-    <div class="container">
+ 
+    <video id="background-video" autoplay loop muted poster="css/concierto_inicio1.png">
+      <source src="css/video_concierto.mp4" type="video/mp4">
+    </video>
+
+      
+
+    <div class="container-video">
 			<div class="row intro-text align-items-start justify-content-start">
 				<div class="col-md-10 pt-5">
-
-					<h1 class="site-animate content-title-opera" id="staticText" >La ópera <span><strong  id="typeline"></strong></span></h1>
+        
+					<h1 class="site-animate content-title-opera" id="staticText" >La música es <span><strong  id="typeline"></strong></span></h1>
           <audio id="music" src="cancion1.mp4"></audio>
-          <button class="custom-btn btn-3" onclick="play()"><span>Play Now</span></button>
-
+          
 				</div>
 			</div>
+      
 		</div>
+    <div class="button-inicio">
+      <button class="custom-btn btn-3" onclick="play()"><span>Play Now</span></button>
+    </div>
+    
   </section>
   <section class="background">
     <div class="content-wrapper">
@@ -83,7 +93,7 @@
  <div class="pimg1 parallax-body hidden-parallax-body" id="parallax-body">
     <div class="ptext">
       <span class="border">
-        Parallax Website
+        Vezzose Armonie
       </span>
     </div>
   </div>
@@ -104,8 +114,8 @@
   <!-- Normal section -->
 
   <section class="section parallax-body section-dark hidden-parallax-body" id="parallax-body">
-    <h2>Section Two</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam numquam accusantium velit eligendi saepe rem dolor autem odit optio labore ullam magni perferendis consequatur magnam tempore consectetur nulla, fugit ea qui voluptate odio quos eum! Odio molestias et, cupiditate maxime ducimus quasi quos ullam laudantium. Repellendus vel culpa aliquid accusantium sit, fugiat nesciunt deserunt obcaecati doloremque dolore illo voluptates aspernatur dicta, expedita porro nam autem veritatis quia distinctio accusamus sed cum voluptatum fuga vitae? Iusto adipisci voluptatibus maxime explicabo, alias voluptatem. Inventore, harum. Asperiores rerum in soluta, minus, nam voluptates facilis, fugiat dolore mollitia animi sit dolorem optio cumque itaque.</p>
+    <h2>«En la música todos los sentimientos vuelven a su estado puro y el mundo no es sino música hecha realidad»</h2>
+    <p>(Arthur Schopenhauer)</p>
   </section>
 
   <!-- Parallax section 3 -->
@@ -113,7 +123,7 @@
   <div class="pimg3 parallax-body hidden-parallax-body" id="parallax-body">
     <div class="ptext">
       <span class="border trans">
-        Image Three Text
+        La música es un eco del mundo invisible
       </span>
     </div>
   </div>
@@ -121,16 +131,16 @@
   <!-- Normal section -->
 
   <section class="section parallax-body section-light hidden-parallax-body" id="parallax-body">
-    <h2>Section Three</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam numquam accusantium velit eligendi saepe rem dolor autem odit optio labore ullam magni perferendis consequatur magnam tempore consectetur nulla, fugit ea qui voluptate odio quos eum! Odio molestias et, cupiditate maxime ducimus quasi quos ullam laudantium. Repellendus vel culpa aliquid accusantium sit, fugiat nesciunt deserunt obcaecati doloremque dolore illo voluptates aspernatur dicta, expedita porro nam autem veritatis quia distinctio accusamus sed cum voluptatum fuga vitae? Iusto adipisci voluptatibus maxime explicabo, alias voluptatem. Inventore, harum. Asperiores rerum in soluta, minus, nam voluptates facilis, fugiat dolore mollitia animi sit dolorem optio cumque itaque.</p>
+    <h2>«Componer no es difícil, lo complicado es dejar caer bajo la mesa las notas superfluas»</h2>
+    <p>(Johannes Brahms)</p>
   </section>
   
   <!-- Parallax section 3 -->
   
-  <div class="pimg1 parallax-body hidden-parallax-body" id="parallax-body">
+  <div class="pimg4 parallax-body hidden-parallax-body" id="parallax-body">
     <div class="ptext">
       <span class="border">
-        Susnet Web Design 
+        VEZZOSE ARMONIE 
       </span>
     </div>
   </div>
@@ -141,6 +151,7 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="js/parallax_prueba.js"></script>
 <script src="js/nav-bar.js"></script> 
