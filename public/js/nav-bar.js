@@ -32,11 +32,10 @@
         erase(obj, cb) }, time) })
   }
   var sentences = [
-    "Creer ",
-    "Cantar ",
-    "Soñar ",
-    "Escuchar ",
-    "Vivir"
+    "Credere ",
+    "Cantare ",
+    "Sognare ",
+    "Vivire"
   ]
   var counter = 0;
   

@@ -42,25 +42,47 @@ html {
  }
  
  .ptext {
-    position: absolute;
     top: 50%;
-    width: 100%;
+    width: 180px;
     text-align: center;
     color: #000000;
     font-size: 27px;
-    letter-spacing: 8px;
+    letter-spacing: 3px;
     text-transform: uppercase;
+    display: grid;
+    grid-template-columns: auto 1fr;
  }
  
  .ptext .border {
-    background: #111111;
-    color: #ffffff;
+    background: black;
+    color: white;
     padding: 20px;
+    display: flex;
+    align-items: center;
  }
  
  .ptext .trans {
     background: transparent;
  }
+ .ptext-parallax{
+   position: absolute;
+   top: 50%;
+   width: 100%;
+   text-align: center;
+   color: #000000;
+   font-size: 27px;
+   letter-spacing: 8px;
+   text-transform: uppercase;
+ }
+ .ptext-parallax .border {
+   background: #111111;
+   color: #ffffff;
+   padding: 20px;
+}
+
+.ptext-parallax .trans {
+   background: transparent;
+}
 
  .section {
     text-align: center;

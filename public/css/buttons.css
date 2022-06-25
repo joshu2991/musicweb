@@ -157,9 +157,57 @@
   }
   #typeline{
     font-family: Montserrat;
+    font-size: 6vh;
   }
   .button-inicio{
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
+  /* play button */
+  svg#play{
+    overflow: hidden;
+    vertical-align: middle;
+    z-index: 0;
+    width: 70px;
+    height: auto;
+    align-self: flex-end;
+    padding-bottom: 200px;
+  }
+  svg #play {
+    width: 200px;
+    margin: 120px auto;
+    display: block;
+    cursor: pointer;
+    transform-origin: 50% 50%;
+ }
+  svg #play #triangle {
+    fill: rgba(22, 22, 22, 0);
+    transition: 500ms;
+    transform-origin: 50% 50%;
+ }
+  svg#play:hover #triangle {
+    fill: #FFF;
+    transform-origin: 50% 50%;
+ }
+  svg #lineOne, svg #lineTwo {
+    transform-origin: 50% 50%;
+    transition: 1s;
+ }
+  svg:hover #lineOne {
+    transform: rotate(260deg);
+    -webkit-transform: rotate(260deg);
+    -moz-transform: rotate(260deg);
+    -o-transform: rotate(260deg);
+    transform-origin: 50% 50%;
+ }
+  svg:hover #lineTwo {
+    transform: rotate(-450deg);
+    transform-origin: 50% 50%;
+ }
+ .play-button-music{
+  display: flex;
+  margin-left: 48%;
+  margin-top: 20px;
+ }

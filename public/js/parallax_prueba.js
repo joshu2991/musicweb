@@ -68,6 +68,9 @@ function lastItem() {
         var $shownavbar = $(".show-nav-bar");
         $shownavbar.removeClass("nav-bar-hidden").addClass("nav-bar-show");
     }, 160);
+
+    var music = document.getElementById("music");
+    music.pause();
     
     last_Item = 0;
   }

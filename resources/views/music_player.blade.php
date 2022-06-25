@@ -1,4 +1,4 @@
-<div class="wrapper" id="app">
+<div class="wrapper-player" id="app">
       <div class="player">
         <div class="player__top">
           <div class="player-cover">

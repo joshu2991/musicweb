@@ -45,25 +45,42 @@
 <div class="container-parallax">
   <section class="background">
  
-    <video id="background-video" autoplay loop muted poster="css/concierto_inicio1.png">
-      <source src="css/video_concierto.mp4" type="video/mp4">
+    <video id="background-video" autoplay loop muted poster="css/concierto_inicio.png">
+      <source src="css/video_concierto2.mp4" type="video/mp4">
     </video>
-
+    
       
 
     <div class="container-video">
+    
 			<div class="row intro-text align-items-start justify-content-start">
 				<div class="col-md-10 pt-5">
         
-					<h1 class="site-animate content-title-opera" id="staticText" >La música es <span><strong  id="typeline"></strong></span></h1>
-          <audio id="music" src="cancion1.mp4"></audio>
+          <audio id="music" src="css/cancion1.mp3"></audio>
           
+          <div class="ptext">
+            <div class="border">
+            <span class="site-animate content-title-opera" id="staticText">
+            La musica è 
+            </span><span><strong  id="typeline"></strong></span>
+            </div>
+            
+          </div>
+
 				</div>
 			</div>
       
 		</div>
-    <div class="button-inicio">
-      <button class="custom-btn btn-3" onclick="play()"><span>Play Now</span></button>
+    <div class="play-button-music" onclick="play()">
+      <svg id="play"  viewBox="0 0 163 163" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"="0px">
+        <g fill="none">
+            <g  transform="translate(2.000000, 2.000000)" stroke-width="4">
+                <path d="M10,80 C10,118.107648 40.8923523,149 79,149 L79,149 C117.107648,149 148,118.107648 148,80 C148,41.8923523 117.107648,11 79,11" id="lineOne" stroke="#FFF"></path>
+                <path d="M105.9,74.4158594 L67.2,44.2158594 C63.5,41.3158594 58,43.9158594 58,48.7158594 L58,109.015859 C58,113.715859 63.4,116.415859 67.2,113.515859 L105.9,83.3158594 C108.8,81.1158594 108.8,76.6158594 105.9,74.4158594 L105.9,74.4158594 Z" id="triangle" stroke="#FFF"></path>
+                <path d="M159,79.5 C159,35.5933624 123.406638,0 79.5,0 C35.5933624,0 0,35.5933624 0,79.5 C0,123.406638 35.5933624,159 79.5,159 L79.5,159" id="lineTwo" stroke="#FFF"></path>
+            </g>
+        </g>
+      </svg>
     </div>
     
   </section>
@@ -79,7 +96,7 @@
     <div class="content-wrapper-three">
       <p class="content-title"></p>
       <div class="content subtitle subitle-parallax">
-        <p>Después del silencio lo que más se acerca a expresar lo inexpresable es la música.</p>
+        <p>Dopo il silenzio, ciò che più si avvicina all'espressione dell'inesprimibile è la musica.</p>
         <p>-Aldous Huxley-</p>
       </div>
       
@@ -91,7 +108,7 @@
  <!--********** Parallax Body **********-->
 
  <div class="pimg1 parallax-body hidden-parallax-body" id="parallax-body">
-    <div class="ptext">
+    <div class="ptext-parallax">
       <span class="border">
         Vezzose Armonie
       </span>
@@ -114,16 +131,16 @@
   <!-- Normal section -->
 
   <section class="section parallax-body section-dark hidden-parallax-body" id="parallax-body">
-    <h2>«En la música todos los sentimientos vuelven a su estado puro y el mundo no es sino música hecha realidad»</h2>
+    <h2>«Nella musica tutti i sentimenti tornano allo stato puro e il mondo non è altro che musica resa reale»</h2>
     <p>(Arthur Schopenhauer)</p>
   </section>
 
   <!-- Parallax section 3 -->
 
   <div class="pimg3 parallax-body hidden-parallax-body" id="parallax-body">
-    <div class="ptext">
+    <div class="ptext-parallax">
       <span class="border trans">
-        La música es un eco del mundo invisible
+        La musica è un'eco del mondo invisibile
       </span>
     </div>
   </div>
@@ -131,14 +148,14 @@
   <!-- Normal section -->
 
   <section class="section parallax-body section-light hidden-parallax-body" id="parallax-body">
-    <h2>«Componer no es difícil, lo complicado es dejar caer bajo la mesa las notas superfluas»</h2>
+    <h2>«Comporre non è difficile, la parte difficile è lasciare che le note superflue cadano sotto il tavolo»</h2>
     <p>(Johannes Brahms)</p>
   </section>
   
   <!-- Parallax section 3 -->
   
   <div class="pimg4 parallax-body hidden-parallax-body" id="parallax-body">
-    <div class="ptext">
+    <div class="ptext-parallax">
       <span class="border">
         VEZZOSE ARMONIE 
       </span>
