@@ -30,14 +30,29 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .background:first-child {
-  background-image: url(fondo1.jpg);
+  /* background-image: url(fondo1.jpg); */
   -webkit-transform: translateY(-10vh);
   -ms-transform: translateY(-10vh);
   transform: translateY(-10vh);
+}
+#background-video {
+  width: 100vw;
+  height: 110vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.first-child-back{
+  background-color: rgb(123, 123, 123);
+  max-width: 100%;
 }
 
 .background:first-child .content-wrapper {
@@ -45,10 +60,13 @@
   -ms-transform: translateY(10vh);
   transform: translateY(10vh);
 }
-
-.background:nth-child(2) { background-image: url(teatro1.jpg); }
-
-.background:nth-child(3) { background-image: url(https://unsplash.it/2928/2264?image=525); }
+.background:nth-child(2) { 
+  background-color: black; 
+  background-size: 100% 78%;
+}
+.background:nth-child(3) { 
+  background-image: url(director.jpg); 
+}
 
 /* Set stacking context of slides */
 
@@ -89,8 +107,84 @@
   font-size: 12vh;
   line-height: 1.4;
 }
+.content-title-opera {
+  font-size: 3vh;
+  line-height: 1.4;
+  width: 180px;
+  text-align: center;
+  margin: 3px;
+}
 .last-scroll{
   transform: translate3d(0, 200vh, 0) !important;
 }
+.nav-bar-show{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.page-three{
+  background-image: url(andrea_trueba1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 70%;
+  height: 100vh;
+}
+.profile-begin{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 60px;
+}
+.profile-name{
+  text-align: right;
+  font-size: 40px;
+  padding-right: 120px;
+}
+.profile-name p{
+  font-size: 90px;
+  font-weight: bold;
+  margin-top: 40px;
+  color: #900C3F;
+  font-family: 'Bad Script', cursive;
+  text-transform: none;
+}
+.content-wrapper-three {
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: start;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  color: #fff;
+  font-family: Montserrat;
+  -webkit-transform: translateY(40vh);
+  -ms-transform: translateY(40vh);
+  transform: translateY(40vh);
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: all 1.9s cubic-bezier(0.22, 0.44, 0, 1);
+  transition: all 1.9s cubic-bezier(0.22, 0.44, 0, 1);
+  margin-left: 200px;
+}
+.subitle-parallax p{
+  font-size: 30px;
+  width: 50%;
+  margin-bottom: 60px;
+}
 
 
+.container-video{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 50%;
+  padding-right: 250px;
+}

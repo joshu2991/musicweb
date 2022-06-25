@@ -62,7 +62,15 @@ function lastItem() {
     setTimeout(function () {
         $showParallaxBody.removeClass("hidden-parallax-body");
         $showParallaxBody.fadeTo(2000, 1);
+    }, 80);
+    
+    setTimeout(function () {
+        var $shownavbar = $(".show-nav-bar");
+        $shownavbar.removeClass("nav-bar-hidden").addClass("nav-bar-show");
     }, 160);
+
+    var music = document.getElementById("music");
+    music.pause();
     
     last_Item = 0;
   }

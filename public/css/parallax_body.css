@@ -10,23 +10,28 @@ html {
 }
 
 .pimg1 {
-    background: url(https://images.pexels.com/photos/548084/pexels-photo-548084.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+    background: url(teatro4.jpg);
     min-height: 100%;
  }
  
  .pimg2 {
-    background: url(https://images.pexels.com/photos/373934/pexels-photo-373934.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(partitura.jpg);
     min-height: 400px;
  }
  
  .pimg3 {
-    background: url(https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+    background: url(orquesta.jpg);
     min-height: 400px;
  }
+ .pimg4 {
+   background: url(piano_partitura.jpg);
+   min-height: 100%;
+}
  
  .pimg1,
  .pimg2,
- .pimg3 {
+ .pimg3,
+ .pimg4 {
     position: relative;
     opacity: 0.8;
     background-position: center;
@@ -37,25 +42,47 @@ html {
  }
  
  .ptext {
-    position: absolute;
     top: 50%;
-    width: 100%;
+    width: 180px;
     text-align: center;
     color: #000000;
     font-size: 27px;
-    letter-spacing: 8px;
+    letter-spacing: 3px;
     text-transform: uppercase;
+    display: grid;
+    grid-template-columns: auto 1fr;
  }
  
  .ptext .border {
-    background: #111111;
-    color: #ffffff;
+    background: black;
+    color: white;
     padding: 20px;
+    display: flex;
+    align-items: center;
  }
  
  .ptext .trans {
     background: transparent;
  }
+ .ptext-parallax{
+   position: absolute;
+   top: 50%;
+   width: 100%;
+   text-align: center;
+   color: #000000;
+   font-size: 27px;
+   letter-spacing: 8px;
+   text-transform: uppercase;
+ }
+ .ptext-parallax .border {
+   background: #111111;
+   color: #ffffff;
+   padding: 20px;
+}
+
+.ptext-parallax .trans {
+   background: transparent;
+}
 
  .section {
     text-align: center;
@@ -63,8 +90,8 @@ html {
  }
  
  .section-light {
-    background: #f4f4f4;
-    color: #666666;
+    background: black;
+    color: white;
  }
  
  .section-dark {
